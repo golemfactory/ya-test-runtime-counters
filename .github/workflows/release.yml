@@ -79,7 +79,7 @@ jobs:
           override: true
       - name: Build
         run: |
-          cd runtime && cargo build --release --target x86_64-unknown-linux-musl
+          cargo build --release --target x86_64-unknown-linux-musl
       - name: Pack
         id: pack
         shell: bash
