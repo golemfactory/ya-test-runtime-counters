@@ -1,0 +1,19 @@
+[
+  {
+    "name": "test-counters",
+    "version": "0.1.0",
+    "supervisor-path": "exe-unit",
+    "runtime-path": "ya-test-runtime-counters/ya-test-runtime-counters",
+    "description": "Yagna runtime supporting custom usage counters. For testing purposes only.",
+    "extra-args": ["--runtime-managed-image"],
+    "config": {
+      "counters": {
+        "golem.usage.custom.counter": {
+          "name": "Custom",
+          "description": "Custom counter",
+          "price": true
+        }
+      }
+    }
+  }
+]
