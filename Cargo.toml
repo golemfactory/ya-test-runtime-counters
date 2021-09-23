@@ -19,6 +19,3 @@ assets = [
     ["target/release/ya-test-runtime-counters", "usr/lib/yagna/plugins/ya-test-runtime-counters/", "755"],
     ["conf/ya-test-runtime-counters.json", "usr/lib/yagna/plugins/", "644"],
 ]
-
-[patch.crates-io]
-ya-runtime-sdk = { git = "https://github.com/golemfactory/ya-runtime-sdk.git", branch = "mf/ya-runtime-api-0.4"}
